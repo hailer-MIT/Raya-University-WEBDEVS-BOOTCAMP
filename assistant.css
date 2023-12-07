@@ -1,0 +1,25 @@
+body::before
+{
+    display: block;
+    height: 0px;
+    content: "";
+}
+a.aaa {
+    color: white;
+}
+
+a.aaa:hover{
+    background-color: blue;
+    /* text-decoration: double; */
+    font-size: auto;
+    padding: 18px 6px;
+}
+a.active{
+        background-color: blue;    
+        padding: 18px 6px;
+}
+
+a.visited{
+    background-color: blue;    
+    padding: 18px 6px;
+}
